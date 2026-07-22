@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eden Leaf – Aménagement & Entretien Espaces Verts, Piscines, Désinfection | Casablanca, Rabat, Kénitra</title>
+    <meta name="description" content="Eden Leaf : experts en aménagement paysager, construction et nettoyage de piscines, désinfection et dératisation à Casablanca, Rabat et Kénitra. Devis gratuit." />
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" />
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet" />
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    
+    <!-- Lien vers CSS externe -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ============================================================
+    HEADER / NAVIGATION
+    ============================================================ -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon"><i class="fas fa-leaf"></i></span>
+                    Eden Leaf
+                </a>
+                
+                <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+                
+                <nav class="nav-menu" id="navMenu">
+                    <ul>
+                        <li><a href="#hero" class="active">Accueil</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#realisations">Réalisations</a></li>
+                        <li><a href="#apropos">À propos</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact" class="btn-nav">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============================================================
+    HERO SECTION
+    ============================================================ -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text" data-aos="fade-up" data-aos-duration="1000">
+                <p class="hero-subtitle">🌱 Experts au Maroc</p>
+                <h1>La nature entretenue, <br /><span>l'eau préservée.</span></h1>
+                <p class="hero-desc">
+                    Aménagement paysager, piscines, désinfection et dératisation<br />
+                    à Casablanca, Rabat et Kénitra.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary">Demandez un devis gratuit</a>
+                    <a href="#services" class="btn-secondary">Nos services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    VILLES BADGE
+    ============================================================ -->
+    <section class="cities-bar">
+        <div class="container">
+            <div class="cities-list">
+                <span><i class="fas fa-map-marker-alt"></i> Casablanca</span>
+                <span><i class="fas fa-map-marker-alt"></i> Rabat</span>
+                <span><i class="fas fa-map-marker-alt"></i> Kénitra</span>
+                <span class="cities-badge">Interventions rapides</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    SERVICES APERÇU
+    ============================================================ -->
+    <section class="services-preview section-padding" id="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Nos expertises</span>
+                <h2>Des services sur mesure pour vos espaces</h2>
+                <p>Trois pôles d'excellence pour répondre à tous vos besoins en aménagement et hygiène.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <h3>Espaces Verts</h3>
+                    <p>Création, aménagement et entretien de jardins, parcs et espaces végétalisés.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Tonte & taille</li>
+                        <li><i class="fas fa-check"></i> Irrigation</li>
+                        <li><i class="fas fa-check"></i> Création sur mesure</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Demander un devis →</a>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3>Piscines</h3>
+                    <p>Construction, rénovation et entretien professionnel de piscines résidentielles et collectives.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Construction</li>
+                        <li><i class="fas fa-check"></i> Nettoyage</li>
+                        <li><i class="fas fa-check"></i> Traitement de l'eau</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Demander un devis →</a>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-spray-can"></i>
+                    </div>
+                    <h3>Désinfection & Dératisation</h3>
+                    <p>Traitements préventifs et curatifs contre les insectes et nuisibles.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Insecticides</li>
+                        <li><i class="fas fa-check"></i> Piégeage</li>
+                        <li><i class="fas fa-check"></i> Prévention</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Demander un devis →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    RÉALISATIONS (GALERIE)
+    ============================================================ -->
+    <section class="realisations section-padding" id="realisations" style="background: var(--white-pure);">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Nos réalisations</span>
+                <h2>Découvrez nos projets</h2>
+                <p>Des espaces verts, piscines et interventions de désinfection à travers le Maroc.</p>
+            </div>
+            
+            <div class="filter-buttons" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="jardin">Espaces Verts</button>
+                <button class="filter-btn" data-filter="piscine">Piscines</button>
+                <button class="filter-btn" data-filter="desinfection">Désinfection</button>
+            </div>
+            
+            <div class="gallery-grid" data-aos="fade-up">
+                <div class="gallery-item" data-category="jardin">
+                    <div class="gallery-placeholder" style="background: linear-gradient(135deg, #2d6b3e, #1e4a2b);">
+                        <i class="fas fa-tree" style="font-size:3rem;color:var(--secondary);"></i>
+                        <span>Jardin paysager<br><small>Casablanca</small></span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="jardin">
+                    <div class="gallery-placeholder" style="background: linear-gradient(135deg, #3d7a4e, #1e4a2b);">
+                        <i class="fas fa-leaf" style="font-size:3rem;color:var(--secondary);"></i>
+                        <span>Espace vert résidentiel<br><small>Rabat</small></span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="piscine">
+                    <div class="gallery-placeholder" style="background: linear-gradient(135deg, #1a6a8a, #0d4a6a);">
+                        <i class="fas fa-water" style="font-size:3rem;color:#7ec8e3;"></i>
+                        <span>Piscine sur mesure<br><small>Kénitra</small></span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="piscine">
+                    <div class="gallery-placeholder" style="background: linear-gradient(135deg, #2a7a9a, #0d4a6a);">
+                        <i class="fas fa-swimmer" style="font-size:3rem;color:#7ec8e3;"></i>
+                        <span>Rénovation de piscine<br><small>Casablanca</small></span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="desinfection">
+                    <div class="gallery-placeholder" style="background: linear-gradient(135deg, #6a4a2a, #3d2a1a);">
+                        <i class="fas fa-spray-can" style="font-size:3rem;color:var(--secondary);"></i>
+                        <span>Désinfection industrielle<br><small>Rabat</small></span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="desinfection">
+                    <div class="gallery-placeholder" style="background: linear-gradient(135deg, #5a3a1a, #3d2a1a);">
+                        <i class="fas fa-bug" style="font-size:3rem;color:var(--secondary);"></i>
+                        <span>Dératisation préventive<br><small>Kénitra</small></span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="jardin">
+                    <div class="gallery-placeholder" style="background: linear-gradient(135deg, #4a8a5a, #1e4a2b);">
+                        <i class="fas fa-seedling" style="font-size:3rem;color:var(--secondary);"></i>
+                        <span>Aménagement paysager<br><small>Casablanca</small></span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="piscine">
+                    <div class="gallery-placeholder" style="background: linear-gradient(135deg, #1a5a7a, #0d3a5a);">
+                        <i class="fas fa-clock" style="font-size:3rem;color:#7ec8e3;"></i>
+                        <span>Nettoyage professionnel<br><small>Rabat</small></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    À PROPOS
+    ============================================================ -->
+    <section class="apropos section-padding" id="apropos">
+        <div class="container">
+            <div class="apropos-grid">
+                <div class="apropos-text" data-aos="fade-right">
+                    <span class="section-tag">Qui sommes-nous</span>
+                    <h2>Eden Leaf, <br>votre partenaire nature au Maroc</h2>
+                    <p>Basée à Casablanca, Eden Leaf est une entreprise marocaine passionnée par la nature, l'eau et l'hygiène environnementale. Nous intervenons à Casablanca, Rabat et Kénitra avec une équipe d'experts dévoués.</p>
+                    <div class="apropos-values">
+                        <div class="value-item">
+                            <i class="fas fa-leaf"></i>
+                            <div>
+                                <h4>Éco-responsable</h4>
+                                <p>Des produits et méthodes respectueux de l'environnement.</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Réactivité</h4>
+                                <p>Intervention rapide sous 24h sur toute la région.</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h4>Proximité</h4>
+                                <p>Une écoute personnalisée et un suivi client privilégié.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn-primary">Travailler avec nous</a>
+                </div>
+                <div class="apropos-image" data-aos="fade-left">
+                    <div class="apropos-placeholder" style="background: linear-gradient(135deg, var(--primary), var(--primary-light));">
+                        <i class="fas fa-leaf" style="font-size:5rem;color:var(--secondary);"></i>
+                        <p style="color:white;margin-top:16px;font-weight:500;">Eden Leaf – Depuis 2020</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    BLOG / CONSEILS
+    ============================================================ -->
+    <section class="blog section-padding" id="blog" style="background: var(--white-pure);">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Blog & conseils</span>
+                <h2>Nos articles récents</h2>
+                <p>Des conseils d'experts pour entretenir vos espaces et votre piscine.</p>
+            </div>
+            
+            <div class="blog-grid">
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="blog-image" style="background: linear-gradient(135deg, #2d6b3e, #1e4a2b);">
+                        <i class="fas fa-snowflake" style="font-size:2.5rem;color:var(--secondary);"></i>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-tag">Piscine</span>
+                        <h3>Comment entretenir sa piscine en hiver ?</h3>
+                        <p>Découvrez nos astuces pour protéger votre piscine pendant la saison froide et éviter les mauvaises surprises au printemps.</p>
+                        <a href="#" class="blog-link">Lire l'article →</a>
+                    </div>
+                </article>
+                
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="blog-image" style="background: linear-gradient(135deg, #4a8a5a, #1e4a2b);">
+                        <i class="fas fa-seedling" style="font-size:2.5rem;color:var(--secondary);"></i>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-tag">Jardin</span>
+                        <h3>5 plantes idéales pour un jardin sec au Maroc</h3>
+                        <p>Optez pour des espèces résistantes à la chaleur et économes en eau, parfaites pour le climat marocain.</p>
+                        <a href="#" class="blog-link">Lire l'article →</a>
+                    </div>
+                </article>
+                
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="blog-image" style="background: linear-gradient(135deg, #6a4a2a, #3d2a1a);">
+                        <i class="fas fa-shield-alt" style="font-size:2.5rem;color:var(--secondary);"></i>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-tag">Désinfection</span>
+                        <h3>Quand faire une dératisation préventive ?</h3>
+                        <p>Les périodes clés pour anticiper les infestations et protéger efficacement vos locaux contre les nuisibles.</p>
+                        <a href="#" class="blog-link">Lire l'article →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    CONTACT / DEVIS
+    ============================================================ -->
+    <section class="contact section-padding" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Contact & devis</span>
+                <h2>Parlons de votre projet</h2>
+                <p>Remplissez le formulaire, nous vous répondons sous 24h.</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-form" data-aos="fade-right">
+                    <form id="contactForm" action="https://formspree.io/f/xqkrgqep" method="POST">
+                        <div class="form-group">
+                            <label for="name">Nom complet *</label>
+                            <input type="text" id="name" name="name" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Téléphone</label>
+                            <input type="tel" id="phone" name="phone" />
+                        </div>
+                        <div class="form-group">
+                            <label for="city">Ville *</label>
+                            <select id="city" name="city" required>
+                                <option value="">Sélectionnez une ville</option>
+                                <option value="Casablanca">Casablanca</option>
+                                <option value="Rabat">Rabat</option>
+                                <option value="Kénitra">Kénitra</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service concerné</label>
+                            <select id="service" name="service">
+                                <option value="">Sélectionnez un service</option>
+                                <option value="espaces-verts">Espaces Verts</option>
+                                <option value="piscines">Piscines</option>
+                                <option value="desinfection">Désinfection & Dératisation</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <div class="form-group" style="display:flex;align-items:center;gap:8px;">
+                            <input type="checkbox" name="consent" required style="width:auto;margin:0;" />
+                            <label style="font-weight:400;font-size:0.9rem;margin:0;">J'accepte que mes données soient utilisées pour me recontacter.</label>
+                        </div>
+                        <button type="submit" class="btn-primary">Envoyer</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info" data-aos="fade-left">
+                    <div class="contact-info-card">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p><a href="tel:+2126XXXXXXXX">06 XX XX XX XX</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:contact@edenleaf.ma">contact@edenleaf.ma</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Siège social</h4>
+                            <p>Casablanca, Maroc</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horaires</h4>
+                            <p>Lun–Ven : 8h – 18h</p>
+                        </div>
+                    </div>
+                    <div class="contact-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212.456789!2d-7.589843!3d33.573110!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDM0JzIzLjIiTiA3wrAzNScyMy40Ilc!5e0!3m2!1sfr!2sma!4v1234567890" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    FOOTER
+    ============================================================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon"><i class="fas fa-leaf"></i></span>
+                        Eden Leaf
+                    </a>
+                    <p>Experts en aménagement paysager, piscines et hygiène environnementale au Maroc.</p>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Nos services</h4>
+                    <ul>
+                        <li><a href="#services">Espaces verts</a></li>
+                        <li><a href="#services">Piscines</a></li>
+                        <li><a href="#services">Désinfection & dératisation</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Villes d'intervention</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Casablanca</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Rabat</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Kénitra</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-phone"></i> <a href="tel:+2126XXXXXXXX">06 XX XX XX XX</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:contact@edenleaf.ma">contact@edenleaf.ma</a></li>
+                        <li><i class="fas fa-clock"></i> Lun–Ven : 8h – 18h</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Eden Leaf. Tous droits réservés.</p>
+                <p class="footer-legal">
+                    <a href="#">Mentions légales</a> | <a href="#">Politique de confidentialité</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================================
+    WHATSAPP BUTTON
+    ============================================================ -->
+    <a href="https://wa.me/2126XXXXXXXX?text=Bonjour%20Eden%20Leaf%2C%20je%20souhaite%20obtenir%20un%20devis." 
+       class="whatsapp-float" 
+       target="_blank" 
+       rel="noopener noreferrer"
+       aria-label="Contactez-nous sur WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- ============================================================
+    SCRIPTS
+    ============================================================ -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Lien vers JS externe -->
+    <script src="script.js"></script>
+</body>
+</html>
